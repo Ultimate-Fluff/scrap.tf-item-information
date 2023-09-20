@@ -179,7 +179,7 @@ document.body.innerHTML = JSON.stringify(defindexes);
 
 
 
-	$(".inventoryItem position-relative").on("mousedown", ".inventoryItem .itemImg", function (e) {
+	$(".inventoryItem position-relative").on("mousedown", ".inventoryItem", function (e) {
 
 		if (e.which == 2) {
 			e.preventDefault();
@@ -332,7 +332,7 @@ document.body.innerHTML = JSON.stringify(defindexes);
 
 	$.contextMenu({
 		// define which elements trigger this menu
-		selector: window.location.pathname.startsWith("/assets") ? "tr" : ".inventoryItem .itemImg",
+		selector: window.location.pathname.startsWith("/assets") ? "tr" : ".inventoryItem",
 		trigger: "none",
 		// define the elements of the menu
 		items: menuList
