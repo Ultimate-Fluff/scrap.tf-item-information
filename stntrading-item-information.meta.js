@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         scrap.tf-item-information
+// @name         stntrading-item-information
 // @version      0.1.12
-// @description  Add Backpack.tf and Marketplace.tf links in a menu when middle clicking items on scrap.tf
+// @description  Adds various links in a menu when middle clicking items on stntrading.eu
 // @author       Netroscript
 // @match        https://*.stntrading.eu/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js

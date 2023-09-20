@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         scrap.tf-item-information
+// @name         stntrading-item-information
 // @version      0.1.12
 // @description  Adds various links in a menu when middle clicking items on stntrading.eu
 // @author       Netroscript
